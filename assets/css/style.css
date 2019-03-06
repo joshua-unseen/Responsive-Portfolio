@@ -1,0 +1,161 @@
+/*
+   * Teal color (used for headings and backgrounds): `#4aaaa5`
+   * Regular font color (used for paragraphs and all text besides the headings): `#777777`
+   * Main header background color: `#ffffff`
+   * Main header border color: `#cccccc`
+   * Footer background color: `#666666`
+   * Main content background color: `#ffffff`
+   * Main content border color: `#dddddd`
+*/
+body {
+    background-image: url('assets/images/back.jpg');
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    background-color: lightcyan;
+    background-image: url(../images/prism.png)
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+}
+
+hr {
+    border-top: 2px solid #dddddd;
+    margin: 20px 0px;
+}
+
+.green {
+    display: inline-block;
+    margin: 0px;
+    padding: 1em;
+    color: #ffffff;
+    background-color: #4aaaa5;
+}
+
+.clearfix::after {
+    display: block;
+    content: "";
+    clear: both;
+
+}
+
+.content-box{
+    background-color: #ffffff;
+}
+
+.p-item {
+    position: relative;
+    float: left;
+    margin: 20px 0px;
+    background-color: lightcyan
+}
+.p-item:nth-child(3n+1) {
+    margin: 20px 38px;
+}
+.p-item img {
+    display: block;
+}
+
+.p-label {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    font-weight: normal;
+    padding: 0.5em 0px;
+}
+
+header {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+    border-bottom: 2px solid #cccccc;
+}
+
+input, textarea {
+    margin-top: 5px;
+    padding: 5px;
+    width: 886px;
+}
+textarea {
+    height: 10em;
+}
+label {
+    font-size: large;
+}
+
+#hcontent {
+    position: relative;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#hlinks a,span {
+    padding: 0px 18px;
+    text-decoration: none;
+    color: #777777;
+}
+
+#hlinks :nth-child(2) {
+    border-left: 1px solid #dddddd;
+    border-right: 1px solid #dddddd;
+}
+
+#hlinks {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 40px 0px;
+    text-align: right;
+    font-size: large;
+}
+#hlinks :last-child {
+    padding-right: 0px;
+    margin-right: 0px;
+}
+
+#content {
+    position: relative;
+    border: 1px solid #dddddd;
+    margin: 138px auto 109px auto;
+    padding: 30px;
+    width: 898px;
+}
+#content button {
+    padding: 12px 30px;
+    border: none;
+    font-size: large;
+}
+
+#killer {
+    margin-right: 20px;
+    float: left;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    left: 0px;
+    bottom: 0px;
+    text-align: center;
+    font-size: small;
+    color: #ffffff;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+}
+
+@media screen and (min-width: 980px) {
+
+}
+@media screen and (min-width: 768px) {
+    
+}
+@media screen and (min-width: 640px) {
+    
+}
