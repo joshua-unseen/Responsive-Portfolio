@@ -145,7 +145,7 @@ footer {
     font-size: small;
     color: #ffffff;
     padding-top: 40px;
-    padding-bottom: 10px;
+    padding-bottom: 40px;
     background-color: #666666;
     border-top: 8px solid #4aaaa5;
 }
@@ -166,6 +166,10 @@ footer {
         margin-left: 20px;
         margin-right: 20px;
         width: auto;
+    }
+    #killer {
+        width: 50%;
+        height: 50%;
     }
 }
 @media screen and (max-width: 640px) {
