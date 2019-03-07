@@ -175,6 +175,10 @@ footer {
     header {
         position: relative;
     }
+    footer {
+        position: relative;
+        padding-bottom: 40px;
+    }
     #hcontent {
         width: 100%;
         margin-left: 0px;
@@ -196,5 +200,7 @@ footer {
         text-align: center;
         padding: 20px;
     }
-    
+    #content {
+        margin-top: 20px;
+    }
 }
