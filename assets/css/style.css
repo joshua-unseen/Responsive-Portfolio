@@ -160,6 +160,13 @@ footer {
         margin-left: 40px;
         width: 70%;
     }
+    .p-item:nth-child(2n) {
+        float: right;
+    }
+    .p-item:nth-child(3n+1) {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
 }
 @media screen and (max-width: 768px) {
     #hcontent, #content {
