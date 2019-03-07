@@ -78,7 +78,7 @@ header {
 input, textarea {
     margin-top: 5px;
     padding: 5px;
-    width: 886px;
+    width: 98%;
 }
 textarea {
     height: 10em;
