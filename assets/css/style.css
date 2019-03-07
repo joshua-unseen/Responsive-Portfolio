@@ -220,4 +220,18 @@ footer {
         height: 100%;
         margin: 0px;
     }
+    .p-item {
+        float: none;
+        display: block;
+    }
+    .p-item:nth-child(2n) {
+        float: none;
+    }
+    .p-item:nth-child(3n+1) {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .p-item img {
+        width: 100%;
+    }
 }
