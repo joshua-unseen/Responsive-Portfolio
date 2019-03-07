@@ -190,26 +190,31 @@ footer {
         position: relative;
         padding-bottom: 40px;
     }
+    h1.green {
+        display: block;
+        padding: 20px 0px;
+        text-align: center;
+    }
     #hcontent {
         width: 100%;
         margin-left: 0px;
         margin-right: 0px;
         height: auto;
     }
-    header h1 {
+    /* header h1 {
         display: block;
         margin: 0px;
         width: 100%;
         text-align: center;
-        padding: 20px;
-    }
+        padding: 20px 0px;
+    } */
     #hlinks {
         width: 100%;
         margin: 0px;
         position: relative;
         display: block;
         text-align: center;
-        padding: 20px;
+        padding: 20px 0px;
     }
     #content {
         margin-top: 20px;
